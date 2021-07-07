@@ -3,7 +3,8 @@
 //import HookCounterThree from "./components/HookCounterThree";
 //import HookCounterTwo from "./components/HookCounterTwo";
 //import HookCounterOne from "./components/HookCounterOne";
-import HookMouse from "./components/HookMouse";
+//import HookMouse from "./components/HookMouse";
+import MouseContainer from "./components/MouseContainer";
 import "./styles.css";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <HookCounterFour />
       <HookCounterOne />
       <HookMouse />*/}
+      <MouseContainer />
     </div>
   );
 }

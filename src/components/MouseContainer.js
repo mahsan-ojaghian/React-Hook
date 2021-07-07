@@ -1,5 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import HookMouse from "./HookMouse";
 function MouseContainer() {
-  return <div></div>;
+  const [display, setDisplay] = useState(true);
+  return (
+    <div>
+      <button
+        onClick={() => {
+          setDisplay(!display);
+          console.log(display);
+        }}
+      >
+        show/hide
+      </button>
+      {display && <HookMouse />}
+    </div>
+  );
 }
 export default MouseContainer;
