@@ -13,8 +13,8 @@ export default function App() {
       <HookCounterTwo />
       <HookCounterThree />
       <HookCounterFour />
-      <HookCounterOne />*/}
-      <HookMouse />
+      <HookCounterOne />
+      <HookMouse />*/}
     </div>
   );
 }
