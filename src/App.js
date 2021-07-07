@@ -6,6 +6,7 @@
 //import HookMouse from "./components/HookMouse";
 //import MouseContainer from "./components/MouseContainer";
 //import IntervalHookCounter from "./components/IntervalHookCounter";
+import DataFetching from "./components/DataFetching";
 import "./styles.css";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <HookMouse />
       <MouseContainer />
       <IntervalHookCounter />*/}
+      <DataFetching />
     </div>
   );
 }
